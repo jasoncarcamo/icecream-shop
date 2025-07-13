@@ -1,0 +1,210 @@
+
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  html{
+    font-size: 16px !important;
+  }
+
+  body {
+    font-family: 'Segoe UI', sans-serif;
+  }
+
+  header {
+    background-color: var(--pink);
+    color: var(--white);
+    padding: 2rem 1rem;
+    margin: 0;
+    text-align: center;
+    background-color: rgb(254, 190, 212);
+    text-shadow: -.05em .1em .1em rgb(9, 9, 37);
+    color: white;
+  }
+
+  header h1 {
+    font-size: 2.5em;
+  }
+
+  nav {
+    margin-top: 1rem;
+  }
+
+  nav a {
+    color: var(--white);
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    transition: opacity 0.3s;
+  }
+
+  nav a:hover {
+    opacity: 0.8;
+  }
+
+  main {
+    padding: 0;
+    width: 100%;
+    margin: 0;
+    text-shadow: -.05em .2em .1em rgb(9, 9, 37);
+    color: white;
+  }
+
+  main > section{
+    height: 100vh;
+  }
+
+  h1{
+    font-size: 4em;
+  }
+
+  .hero {
+    text-align: center;
+  }
+
+  #home{
+    background: url("./images/cones.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  article p {
+    width: 90%;
+  }
+
+  #home article {
+    height: auto;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #about{
+    background: url("./images/yellow.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+  }
+
+  #about article {
+    height: auto;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #flavors {
+    text-align: center;
+    background: url("./images/shirt.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+  }
+
+  #flavors article {
+    height: auto;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .flavors ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem 0;
+    justify-content: center;
+  }
+
+  .flavors li {
+    padding: 0.8rem 1.5rem;
+    border-radius: 20px;
+    font-weight: bold;
+  }
+
+  .strawberry{
+    background-color: #FF6347;
+  }
+
+  .mint{
+    background-color: #3EB489;
+  }
+
+  .vanilla{
+    background-color: #F3E5AB;
+  }
+
+  .caramel{
+    background-color: #D5AD76;
+  }
+
+  .cookies{
+    background-color: #E2D7A7;
+  }
+
+  .pistachio{
+    background-color: #93C572;
+  }
+
+  .lavender{
+    background-color: #E6E6FA;
+  }
+
+  #contact{
+    background: url("./images/purple.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  #contact article{
+    height: auto;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: var(--pink-light);
+    font-size: 0.9rem;
+    color: #666;
+  }
+
+  @media (min-width: 768px) {
+    .hero {
+      flex-direction: row;
+      text-align: left;
+    }
+
+    .hero img {
+      max-width: 300px;
+    }
+
+    .hero article {
+      flex: 1;
+    }
+  }
