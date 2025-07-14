@@ -48,7 +48,6 @@
     padding: 0;
     width: 100%;
     margin: 0;
-    text-shadow: -.05em .2em .1em rgb(9, 9, 37);
     color: white;
   }
 
@@ -58,6 +57,7 @@
 
   h1{
     font-size: 4em;
+    text-shadow: -.05em .05em .1em rgb(9, 9, 37);
   }
 
   .hero {
